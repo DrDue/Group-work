@@ -3,7 +3,7 @@ body {
     opacity: 1;
     align-content: center;
     text-align: center;
-    
+    font-size: medium;
 
 }
 
@@ -12,3 +12,6 @@ header {
     opacity: 0.3;
 }
 
+p{
+    
+}
