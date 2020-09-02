@@ -1,11 +1,14 @@
 body {
-    background-color: grey;
-    opacity: 0.8;
+    background-color: lightskyblue;
+    opacity: 1;
     align-content: center;
+    text-align: center;
+    
 
 }
 
 header {
-    background-color: grey;
+    background-color: lightskyblue;
     opacity: 0.3;
 }
+
