@@ -1,0 +1,11 @@
+body {
+    background-color: grey;
+    opacity: 0.8;
+    align-content: center;
+
+}
+
+header {
+    background-color: grey;
+    opacity: 0.3;
+}
