@@ -4,6 +4,7 @@
     <head>
         <title>Group Work</title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
       <header>
@@ -12,10 +13,40 @@
         <a href="underside3.html">Underside 3</a>
       </header>
       <main>
-        <h1>Group work</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Git</h1>
+          <div class="lokal">
+            <h3>Lokal start</h3>
+            <h4>Projekt start</h4>
+            Åben cmd
+            <ul>
+              <li>mkdir projektnavn</li>
+              <li>cd projektnavn</li>
+              <li>git init</li>
+            </ul>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h4>Tilføj filer</h4>
+              <ul>
+                <li>git add .</li>
+                eller
+                <li>git add filnavn.js</li>
+
+              </ul>
+                <h4>Commit</h4>
+              <ul>
+                <li>git commit -m "besked"</li>
+              </ul>
+
+          </div>
+
+
+          <div class = "del">
+            <h3>Del lokalt arbejde</h3>
+              <ul
+              ><li>cd projektnavn</li>
+              <li>git remote add origin https://youruserid@bitbucket.org/youruserid/projectname.git</li>
+              <li>git push -u origin master</li>
+            </ul>
+          </div>
       </main>
 
       <footer></footer>
